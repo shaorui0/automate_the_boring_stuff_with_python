@@ -3,16 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Regex_project", "Regex_project\Regex_project.pyproj", "{7709A3CC-C59D-4B83-9628-8288F67F539E}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_7_Regex_project", "Regex_project\chapter_7_Regex_project.pyproj", "{7709A3CC-C59D-4B83-9628-8288F67F539E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_8_Generator_random_quiz_files", "chapter_8_Generator_random_quiz_files\chapter_8_Generator_random_quiz_files.pyproj", "{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_8_multiclipboard", "chapter_8_multiclipboard\chapter_8_multiclipboard.pyproj", "{C701DF7F-EFD2-4A67-80CD-C977A46550E7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_9_Renaming Files", "chapter_9_Renaming Files\chapter_9_Renaming Files.pyproj", "{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_9_Backing up a folder into a ziP", "chapter_9_Backing up a folder into a ziP\chapter_9_Backing up a folder into a ziP.pyproj", "{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Release|x64.ActiveCfg = Release|Any CPU
+		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Release|x86.ActiveCfg = Release|Any CPU
+		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Release|x64.ActiveCfg = Release|Any CPU
+		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Release|x64.ActiveCfg = Release|Any CPU
+		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Release|x86.ActiveCfg = Release|Any CPU
+		{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}.Release|x64.ActiveCfg = Release|Any CPU
+		{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
