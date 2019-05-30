@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7709a3cc-c59d-4b83-9628-8288f67f539e</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>Regex_project.py</StartupFile>
+    <ProjectGuid>dd37c8ae-4e6e-459c-945a-9a8cf5a94dbc</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>chapter_10_debug_project.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>chapter_7_Regex_project</Name>
-    <RootNamespace>Regex_project</RootNamespace>
+    <Name>chapter_10_debug_project</Name>
+    <RootNamespace>chapter_10_debug_project</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,14 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="phoneAndEmail.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Regex_project.py" />
-    <Compile Include="StripRegexVersion.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="StrongPasswordDetection.py">
+    <Compile Include="chapter_10_debug_project.py" />
+    <Compile Include="testEnum.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

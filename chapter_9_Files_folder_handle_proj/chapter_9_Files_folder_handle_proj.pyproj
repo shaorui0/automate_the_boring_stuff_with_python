@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7709a3cc-c59d-4b83-9628-8288f67f539e</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>Regex_project.py</StartupFile>
+    <ProjectGuid>0f9dd3da-ce87-4c63-a7c4-37386343fdfe</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>chapter_9_Files_folder_handle_proj.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>chapter_7_Regex_project</Name>
-    <RootNamespace>Regex_project</RootNamespace>
+    <Name>chapter_9_Files_folder_handle_proj</Name>
+    <RootNamespace>chapter_9_Files_folder_handle_proj</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,16 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="phoneAndEmail.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Regex_project.py" />
-    <Compile Include="StripRegexVersion.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="StrongPasswordDetection.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="chapter_9_Files_folder_handle_proj.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

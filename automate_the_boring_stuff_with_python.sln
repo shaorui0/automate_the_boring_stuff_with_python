@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_7_Regex_project", "Regex_project\chapter_7_Regex_project.pyproj", "{7709A3CC-C59D-4B83-9628-8288F67F539E}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_8_Generator_random_quiz_files", "chapter_8_Generator_random_quiz_files\chapter_8_Generator_random_quiz_files.pyproj", "{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_8_multiclipboard", "chapter_8_multiclipboard\chapter_8_multiclipboard.pyproj", "{C701DF7F-EFD2-4A67-80CD-C977A46550E7}"
-EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_9_Renaming Files", "chapter_9_Renaming Files\chapter_9_Renaming Files.pyproj", "{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_9_Backing up a folder into a ziP", "chapter_9_Backing up a folder into a ziP\chapter_9_Backing up a folder into a ziP.pyproj", "{8CC2F31C-F87D-4730-8B5C-7BBFE0E52A33}"
@@ -22,6 +18,12 @@ EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_11_“i’m feeling lucky” google", "chapter_11_“i’m feeling lucky” google\chapter_11_“i’m feeling lucky” google.pyproj", "{ABB2CEC9-2DAD-41DF-BB0F-3398B4FCD29B}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_11_downloading All xkcd comics", "chapter_11_downloading All xkcd comics\chapter_11_downloading All xkcd comics.pyproj", "{729BC9D5-CD01-4EC0-AAA5-F0B4E2D05C91}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_8_File_handle_project", "chapter_7_File_handle_project\chapter_8_File_handle_project.pyproj", "{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_9_Files_folder_handle_proj", "chapter_9_Files_folder_handle_proj\chapter_9_Files_folder_handle_proj.pyproj", "{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "chapter_10_debug_project", "chapter_10_debug_project\chapter_10_debug_project.pyproj", "{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +41,6 @@ Global
 		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Release|x64.ActiveCfg = Release|Any CPU
 		{7709A3CC-C59D-4B83-9628-8288F67F539E}.Release|x86.ActiveCfg = Release|Any CPU
-		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Release|x64.ActiveCfg = Release|Any CPU
-		{EABF2E41-4CFC-4EC2-AC77-7E5007453D6E}.Release|x86.ActiveCfg = Release|Any CPU
-		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Release|x64.ActiveCfg = Release|Any CPU
-		{C701DF7F-EFD2-4A67-80CD-C977A46550E7}.Release|x86.ActiveCfg = Release|Any CPU
 		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{602E4A7A-2AD0-4DFA-BAC8-DAA855497EE7}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -93,6 +83,24 @@ Global
 		{729BC9D5-CD01-4EC0-AAA5-F0B4E2D05C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{729BC9D5-CD01-4EC0-AAA5-F0B4E2D05C91}.Release|x64.ActiveCfg = Release|Any CPU
 		{729BC9D5-CD01-4EC0-AAA5-F0B4E2D05C91}.Release|x86.ActiveCfg = Release|Any CPU
+		{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}.Release|x64.ActiveCfg = Release|Any CPU
+		{B7B6FBE4-F215-458B-892A-3AA90CEE1E0D}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}.Release|x64.ActiveCfg = Release|Any CPU
+		{0F9DD3DA-CE87-4C63-A7C4-37386343FDFE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD37C8AE-4E6E-459C-945A-9A8CF5A94DBC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

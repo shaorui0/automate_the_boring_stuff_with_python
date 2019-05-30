@@ -2,16 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7709a3cc-c59d-4b83-9628-8288f67f539e</ProjectGuid>
+    <ProjectGuid>b7b6fbe4-f215-458b-892a-3aa90cee1e0d</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Regex_project.py</StartupFile>
+    <StartupFile>chapter_7_File_handle_project.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>chapter_7_Regex_project</Name>
-    <RootNamespace>Regex_project</RootNamespace>
+    <Name>chapter_8_File_handle_project</Name>
+    <RootNamespace>chapter_7_File_handle_project</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,14 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="phoneAndEmail.py">
+    <Compile Include="chapter_7_File_handle_project.py" />
+    <Compile Include="DeleteFiles.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Regex_project.py" />
-    <Compile Include="StripRegexVersion.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="StrongPasswordDetection.py">
+    <Compile Include="GeneratorQuizFile.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
